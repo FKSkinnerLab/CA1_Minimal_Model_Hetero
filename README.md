@@ -1,6 +1,7 @@
 # CA1_Minimal_Model_Hetero
 
-Anton Lunyov (uploaded June 2020), code from summer 2017+
+Anton Lunyov (uploaded June 2020), code from summer 2017+;
+FKSkinner (edits)
 
 Language: python
 
