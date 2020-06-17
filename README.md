@@ -10,8 +10,13 @@ This repository includes python code and scripts that
 i. generates the model database (a,b,d,klow parameters), along with the generated model database output (TO ADD FILE NAMES)
 ii. obtains SFA, Rheo, PIR metrics from model database
 
-Izhikevich cellular model equations based on strongly adapting CA1 pyramidal cell model; E-I network simulations done via brian2 softwared.
+Izhikevich cellular model equations based on strongly adapting CA1 pyramidal cell model; E-I network simulations done via brian2 software.
 
+
+
+Contains code for network simulations using the CellMetrics generated parameters
+
+The Default network simulation contains the code used to run a heterogeneous network of neurons based on scenario 8 in Brian2, and the other versions of the code are based on it. The cell metrics generated for the runs are found in folders where they are needed to run as .npy files
 
 
 
