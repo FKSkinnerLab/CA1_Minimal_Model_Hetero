@@ -7,11 +7,15 @@ Language: python
 
 ## Summary ##
 
-This repository includes python code and scripts in 2 folders (1. Cell_Database_Metrics, and 2. Network_Sims) as used in the Chatzikalymniou et al. (2020) paper.  It does the following: 
+This repository includes python code and scripts in 2 folders (1. Cell_Database_Metrics, and 2. Network_Sims) as used in the Chatzikalymniou et al. (2020) paper.  The code does the following: 
 
-  1. Generates the model database (a,b,d,klow parameters), along with the generated model database output; obtains SFA, Rheo, PIR metrics from generated model database; creates histograms (as in paper Figure). Files are bubble... npy ETC.  The pyramidal cell models are used to create heterogenous populations to use in the E-I network simulations.
+  1. Generates the model database (a,b,d,klow parameters), along with the generated model database output; obtains SFA, Rheo, PIR metrics from generated model database; creates histograms (as in paper Figure). 
+  FILES are bubble... npy ETC.  The pyramidal cell models are used to create heterogenous populations to use in the E-I network simulations.
   
-  2. brian2 code that simulates E-I networks with pyramidal cell models from the generated model database (generated npy files needed).
+  2. Simulates heterogeneous E-I networks using brian2, with pyramidal cell models from the generated model database (generated npy files needed); analyzes output for power (FFT), as well as other aspects; plotting of output for voltages, IPSCs, EPSCs for some 
+  FILES are BLAH.
+  
+  ## 3. Simulated network ouput of the heterogeneous output, and homogeneous ones. etc. (could go on OSF instead maybe? Anton?) ##
 
 Izhikevich cellular model equations and parameters use the strongly adapting CA1 pyramidal cell model; E-I network simulations done via brian2 software (briansimulator.org) and network rationale and details can be found in Ferguson et al. 2017.  
 Parameter values start from the 8th row of Table 5.  All details can be found in Chatzikalymniou et al.
