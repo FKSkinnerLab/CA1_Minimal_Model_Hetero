@@ -8,8 +8,9 @@ Language: python
 ## Summary ##
 
 This repository includes python code and scripts that 
-i. generates the model database (a,b,d,klow parameters), along with the generated model database output (TO ADD FILE NAMES)
-ii. obtains SFA, Rheo, PIR metrics from model database
+
+  i. generates the model database (a,b,d,klow parameters), along with the generated model database output (TO ADD FILE NAMES)
+  ii. obtains SFA, Rheo, PIR metrics from model database
 
 Izhikevich cellular model equations based on strongly adapting CA1 pyramidal cell model; E-I network simulations done via brian2 software.
 
