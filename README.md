@@ -9,9 +9,10 @@ Language: python
 
 This repository includes python code and scripts in 2 folders (1. Cell_Database_Metrics, and 2. Network_Sims) as implemented in the Chatzikalymniou et al. (2020) paper.  The code does the following: 
 
-  #Folder 1# - Cell_Database_Metrics. Contains code that generates the model database (a,b,d,klow parameters), along with the generated model database output; stores the result in 3 4-D tensors corresponding to SFA, Rheo, PIR metrics from generated model database; plots histograms (as in paper Figure). The 4-D tensors are stored in files entitled adaptation_across_4.npy, rheo_across_4.npy and TC_across_4.npy. These files store the models that are subsequently used in the network simulations. 
+  ##Folder 1## - Cell_Database_Metrics. Contains code that generates the model database (a,b,d,klow parameters), along with the generated model database output; stores the result in 3 4-D tensors corresponding to SFA, Rheo, PIR metrics from generated model database; plots histograms (as in paper Figure). The 4-D tensors are stored in files entitled adaptation_across_4.npy, rheo_across_4.npy and TC_across_4.npy. These files store the models that are subsequently used in the network simulations. 
   
-  #FILES# 
+  FILES 
+  
   adaptation_across_4.npy - stores the SFA data as (initial slope - final slope) of the current-frequency curve across 4 varying dimensions (a,b,d,kLow)
   
   adaptation_across_4_ratio.npy - stores the SFA data as (initial slope / final slope) of the current-frequency curve across 4 varying dimensions (a,b,d,kLow)
