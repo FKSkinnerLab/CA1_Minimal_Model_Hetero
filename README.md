@@ -29,6 +29,10 @@ Contains code that generates the model database (a,b,d,klow parameters), along w
   
   gen_SFA_tensor.py - generates the spike frequency adaptation data and stores it in adaptation_across_4.npy and adaptation_across_4_ratio.npy
   
+  histogrammer_BN.py - pulls out data from .npy tensors and plots histograms of a,b,d,kLow value prevalence within models with Broad (B) or Narrow (N) selections of SFA, PIR or Rheobase
+  
+  histogrammer_HML.py - pulls out data from .npy tensors and plots histograms of a,b,d,kLow value prevalence within models with Low (L), Medium (M) or High (H) selections of SFA, PIR or Rheobase
+  
 ## Folder 2: Network_Sims 
   Contains code that simulates heterogeneous E-I networks adapted from Ferguson (2017) paper using brian2, with pyramidal cell models from the generated model database (the aforementioned .npy files); calculates and stores various output including power (FFT), plots of output for voltages, IPSCs, EPSCs, etc. 
   FILES 
