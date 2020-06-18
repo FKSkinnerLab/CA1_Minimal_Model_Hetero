@@ -9,9 +9,9 @@ Language: python
 
 This repository includes python code and scripts in 2 folders (1. Cell_Database_Metrics, and 2. Network_Sims) as implemented in the Chatzikalymniou et al. (2020) paper.  The code does the following: 
 
-## Folder 1 ## 
+## Folder 1: Cell_Database_Metrics
 
-  Cell_Database_Metrics. Contains code that generates the model database (a,b,d,klow parameters), along with the generated model database output; stores the result in 3 4-D tensors corresponding to SFA, Rheo, PIR metrics from generated model database; plots histograms (as in paper Figure). The 4-D tensors are stored in files entitled adaptation_across_4.npy, rheo_across_4.npy and TC_across_4.npy. These files store the models that are subsequently used in the network simulations. 
+Contains code that generates the model database (a,b,d,klow parameters), along with the generated model database output; stores the result in 3 4-D tensors corresponding to SFA, Rheo, PIR metrics from generated model database; plots histograms (as in paper Figure). The 4-D tensors are stored in files entitled adaptation_across_4.npy, rheo_across_4.npy and TC_across_4.npy. These files store the models that are subsequently used in the network simulations. 
   
   FILES 
   
@@ -29,8 +29,8 @@ This repository includes python code and scripts in 2 folders (1. Cell_Database_
   
   gen_SFA_tensor.py - generates the spike frequency adaptation data and stores it in adaptation_across_4.npy and adaptation_across_4_ratio.npy
   
-## Folder 2 ##
-  Network_Sims. Contains code that simulates heterogeneous E-I networks adapted from Ferguson (2017) paper using brian2, with pyramidal cell models from the generated model database (the aforementioned .npy files); calculates and stores various output including power (FFT), plots of output for voltages, IPSCs, EPSCs, etc. 
+## Folder 2: Network_Sims 
+  Contains code that simulates heterogeneous E-I networks adapted from Ferguson (2017) paper using brian2, with pyramidal cell models from the generated model database (the aforementioned .npy files); calculates and stores various output including power (FFT), plots of output for voltages, IPSCs, EPSCs, etc. 
   FILES 
 
 
