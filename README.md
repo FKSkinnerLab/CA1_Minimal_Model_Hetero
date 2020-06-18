@@ -57,6 +57,8 @@ Contains code that generates the model database (a,b,d,klow parameters), along w
   /Output/ - folder containing results for network simulation for HML and BN simulations as presented in the Chatzikalymniou (2020) paper
 
 
+
+
 Izhikevich cellular model equations and parameters use the strongly adapting CA1 pyramidal cell model; E-I network simulations done via brian2 software (briansimulator.org) and network rationale and details can be found in Ferguson et al. 2017.  
 Parameter values start from the 8th row of Table 5.  All details can be found in Chatzikalymniou et al.
 
