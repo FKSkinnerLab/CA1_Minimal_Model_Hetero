@@ -54,7 +54,7 @@ Contains code that generates the model database (a,b,d,klow parameters), along w
   
   jobs-list.txt - an example of the format of the various simulations that were run. Simulation parameters provided to Brian2_PYR_PV_noisy_heterogeneous.py as -SFA_window -Rheo_window -PIR_window -SFA_center -Rheo_center -PIR_center
   
-  /Output/ - folder containing results for network simulation for HML and BN simulations as presented in the Chatzikalymniou (2020) paper. Files names begin with  the ranges of SFA, PIR and Rheo explored [SFA_range,Rheo_range,PIR_range] Data included at OSF.io at (link)
+  /Output/ - folder containing results for network simulation for HML and BN simulations as presented in the Chatzikalymniou (2020) paper. Files names begin with  the ranges of SFA, PIR and Rheo explored [SFA_range,Rheo_range,PIR_range] Data included at OSF.io at https://osf.io/xcaut/
 
 
 
